@@ -1,0 +1,23 @@
+# .gitignore for PHP + MySQL project
+
+# Database files
+*.frm
+*.ibd
+db.opt
+
+# Configuration files
+db_config.php
+test_connection.php
+
+# IDE settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env*

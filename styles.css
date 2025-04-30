@@ -1,0 +1,151 @@
+/* General body styling */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgba(128, 0, 0, 0.66);
+}
+
+/* Container for main sections */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    max-width: 900px;
+    margin: 5px;
+}
+
+/* Title inside container */
+.container h1 {
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+}
+
+/* Reusable section styling */
+.section {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1.5px solid #b2b2b2;
+    border-radius: 0.25em;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+
+/* QR reader styling */
+#my-qr-reader {
+    padding: 0 !important;
+    border: none !important;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+
+/* Scrollable results container */
+.results-container {
+    height: 600px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #b2b2b2;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Export button */
+.export-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #008000ad;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.25em;
+    transition: background-color 0.3s;
+}
+
+.export-button:hover {
+    background-color: #008000;
+}
+
+/* Hidden export section */
+#export-section {
+    display: none;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1.5px solid #b2b2b2;
+    border-radius: 0.25em;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
+    margin: 10px;
+    width: 90%;
+    max-width: 900px;
+}
+
+/* Login form container */
+.login-container {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Login form input */
+.login-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0.25em;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Login button */
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #008000ad;
+    color: white;
+    border: none;
+    border-radius: 0.25em;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #008000;
+}
